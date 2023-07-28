@@ -1,0 +1,39 @@
+@import  url('https://fonts.googleapis.com/css2?family=Inter&family=Mali&family=Poppins&display=swap');
+
+.title{
+width: 400px;
+height: 80px;
+color: #000;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: 115%; /* 43.7px */
+letter-spacing: -0.722px;
+top: 300px;
+margin-left: 795px;
+}
+
+.content{
+width: 278px;
+height: 220px;
+color: rgba(0, 0, 0, 0.80);
+font-family: Inter;
+font-size: 19px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: -0.084px;
+margin-top: 50px;
+margin-left: 795px;
+
+}
+  
+  img{ 
+    position: absolute;
+    top: 9px;
+    left: 0px;
+    width: 1000px;
+    height: 650px;
+   
+}
