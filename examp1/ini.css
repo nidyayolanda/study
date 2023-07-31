@@ -1,5 +1,32 @@
 @import  url('https://fonts.googleapis.com/css2?family=Inter&family=Mali&family=Poppins&display=swap');
 
+*{
+  box-sizing: border-box;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-left{
+  flex: 36%;
+  flex-wrap: wrap;
+  width: 401px;
+  height: 640px;
+  flex-shrink: 0;
+  padding: 50px;
+  align-content: center;
+  background-color: #e6e2e2;
+}
+.flex-right{
+  flex: 34%;
+}
+
 .title{
 width: 400px;
 height: 80px;
@@ -36,4 +63,110 @@ margin-left: 795px;
     width: 1000px;
     height: 650px;
    
+}
+
+.judul{
+  color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 160% */
+letter-spacing: -0.34px;
+}
+
+.jdl{
+  color: rgba(0, 0, 0, 0.80);
+font-family: Inter;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 145.455% */
+letter-spacing: 0.055px;
+}
+ 
+.cwolor{
+  width: 437px;
+height: 364px;
+flex-shrink: 0;
+z-index: 1000;
+margin-top: 250px;
+margin-left: 60px;
+}
+.publish{
+  width: 200px;
+  color: #18A0FB;
+text-align: center;
+font-family: Whyte;
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 145.455% */
+letter-spacing: 0.055px;
+margin-top: 120px;
+margin-left: 250px;
+}
+
+.panahh{
+  width: 20px;
+height: 100px;
+
+flex-shrink: 0;
+margin-top: 180px;
+margin-left: 1025px;
+}
+
+.warnaa{
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+.warna1{
+  width: 40px;
+height: 40px;
+border-radius: 3px;
+margin-right: 10px;
+background-color: #EF5DA8;
+}
+
+.warna2{
+  width: 40px;
+height: 40px;
+border-radius: 3px;
+margin-right: 10px;
+background-color: #F178B6;
+}
+
+.warna3{
+  width: 40px;
+height: 40px;
+border-radius: 3px;
+margin-right: 10px;
+background-color: #FCDDEC;
+}
+
+.warna4{
+  width: 40px;
+height: 40px;
+border-radius: 3px;
+margin-right: 10px;
+background-color: #5D5FEF;
+}
+
+.warna5{
+  width: 40px;
+height: 40px;
+border-radius: 3px;
+margin-right: 10px;
+background-color: #7879F1;
+}
+
+.warna6{
+  width: 40px;
+height: 40px;
+border-radius: 3px;
+margin-right: 10px;
+background-color: #A5A6F6;
 }
